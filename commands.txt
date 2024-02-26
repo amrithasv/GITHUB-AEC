@@ -1,0 +1,43 @@
+1. git clone 
+git add .
+git commit -m ""
+git push url
+
+2.git branch -m feature
+git checkout feature
+git branch -v
+git add .
+git commit -m ""
+git push origin feature : main
+
+3. git clone
+git checkout -b feature-branch
+git add .
+git commit -m ""
+git fetch origin
+git rebase origin/main
+git rebase-continue
+git push origin feature-branch
+
+4.
+git tag v1.0
+git tag -a v1.0
+git tag -a 1.0.1 -m ""
+git show v1.0.1
+
+5.git checkout -b source-branch
+git add .
+git push
+git commit -m "'
+git status
+git log --oneline
+git checkout -m main
+git cherry-pick "copied hash"
+git cherry-pick cntinue
+
+6. 
+git show commit hash
+ git log --author=amrithasv
+ git log -n5
+git revert commit hash
+
